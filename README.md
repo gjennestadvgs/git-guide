@@ -112,6 +112,25 @@ Om noen andre har gjort endringer i repoet siden sist du synkroniserte, så tren
 - Klikk på “...” ved siden av “CHANGES”, og så trykk på “Pull”: <br>
 <img src="bilder/pull.png" width='350'>
 
+## Merge til Main i GitHub
+Når du er ferdig med å jobbe i en branch (f.eks. oppgave-1), kan du "merge" den inn i `main` slik at endringene blir en del av hovedversjonen.
+
+OBS! Det er viktig at du har pushet endringene dine først (`Push` i VS Code), ellers er de ikke synlige på GitHub.
+1. Gå til GitHub og finn prosjektet ditt.
+2. Du vil ofte se en gul boks med tekst som:
+    - "Compare & pull request"
+    - Trykk på denne.
+    - Hvis du ikke ser den: Trykk på "Branches" og finn branchen du vil merge.
+3. Skriv gjerne en kort beskrivelse av hva du har gjort i branchen.
+4. Trykk på den grønne knappen: `Create pull request`.
+5. Du kommer til en ny side. Trykk så på `Merge pull request`.
+6. Til slutt trykker du på `Confirm merge`.
+
+Etterpå kan du slette branchen (valgfritt).
+
+Tips: Det er lurt å rydde opp i ferdige branches slik at det ikke blir rotete.
+
+
 ## Løse konflikter
 
 Konflikter kan skje hvis to personer har endret samme linje i samme fil. <br>
